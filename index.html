@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="calculator">
+      <input  class="text" type="text" readonly>
+      <div class="buttons">
+      
+        <button onclick=" number = ''; 
+document.querySelector('.text').value = number;
+">c</button>
+        <button onclick=" number += '1'; 
+document.querySelector('.text').value = number;
+">1</button>
+        <button onclick=" number += '2'; 
+document.querySelector('.text').value = number;
+">2</button>
+        <button onclick=" number += '+'; 
+document.querySelector('.text').value = number;
+">+</button>
+        <button onclick=" number += '3'; 
+document.querySelector('.text').value = number;
+">3</button>
+        <button onclick=" number += ''; 
+document.querySelector('.text').value = number;
+">4</button>
+        <button onclick=" number += '-'; 
+document.querySelector('.text').value = number;
+">-</button>
+        <button onclick=" number += '5'; 
+document.querySelector('.text').value = number;
+">5</button>
+        <button onclick=" number += '6'; 
+document.querySelector('.text').value = number;
+">6</button>
+        <button onclick=" number += '*'; 
+document.querySelector('.text').value = number;
+">*</button>
+        <button onclick=" number += '7'; 
+document.querySelector('.text').value = number;
+">7</button>
+        <button onclick=" number += '8'; 
+document.querySelector('.text').value = number;
+">8</button>
+        <button onclick=" number += '/'; 
+document.querySelector('.text').value = number;
+">/</button>
+        <button onclick=" number = eval(number); 
+document.querySelector('.text').value = number;
+">=</button>
+        <button onclick=" number += '9'; 
+document.querySelector('.text').value = number;
+">9</button>
+        <button onclick=" number += '0'; 
+document.querySelector('.text').value = number;
+">0</button>
+        <button onclick=" number += '.'; 
+document.querySelector('.text').value = number;
+">.</button>      
+   
+    </div>
+    </div>
+
+<script>
+let number= '';
+document.querySelector('.text').value = number;
+
+</script>
+</body>
+</html>
